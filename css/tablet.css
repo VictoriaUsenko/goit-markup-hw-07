@@ -1,7 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    /* 582 */
   }
   /* ==============================================
                   General
@@ -9,7 +8,6 @@
 
   /* ------------------Header----------------- */
   .header > .container {
-    /* display: block; */
     justify-content: flex-start;
   }
   .menu-open {
@@ -40,9 +38,7 @@
   .navigation-list .item-link {
     position: relative;
   }
-  /* .navigation-list .item-link.current {
-    color: var(--accent-color);
-  } */
+
   .navigation-list .item-link.current::after {
     content: "";
     position: absolute;
@@ -52,7 +48,6 @@
     left: 0;
     bottom: -1px;
     border-radius: 2px;
-    /* color: inherit; */
   }
 
   .item-link {
@@ -73,7 +68,6 @@
   }
 
   .contacts-link {
-    /* padding: 24px 0; */
     padding: 0;
     color: var(--text-color);
     transition: color var(--transition);
