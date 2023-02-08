@@ -1,0 +1,185 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .section {
+    padding: 120px 0;
+  }
+
+  /* ==============================================
+                  General
+============================================== */
+  /* ------------------Header----------------- */
+
+  .header > .container {
+    width: 1158px;
+  }
+
+  .header-logo {
+    /* padding: 24px 0; */
+    margin-right: 77px;
+  }
+
+  .header-navigation {
+    margin-right: auto;
+  }
+
+  /* .navigation-list .item-link.current {
+  color: var(--accent-color);
+}
+.navigation-list .item-link.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+} */
+
+  .header-contacts {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contacts-link {
+    padding-top: 0;
+  }
+
+  .header-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* <!-- ------------------------= --> */
+
+  /* -----------------Footer-------------------- */
+
+  .footer {
+    padding: 100px 0;
+  }
+  .footer > .container {
+    gap: 0;
+    row-gap: 0;
+  }
+  .footer-tegline {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
+  }
+
+  /* --------------Hero----------- */
+
+  .hero {
+    padding-top: 187px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    height: 600px;
+    background-image: var(--bg-gradient), url(../images/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient), url(../images/people-office@2x.jpg);
+    }
+  }
+
+  .hero-text {
+    /* max-width: 524px;   */
+    max-width: 526px;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+
+    line-height: 1.07;
+    font-size: 56px;
+  }
+  /* -------------------Advantages------------------- */
+  .advantages .container {
+    width: 1158px;
+  }
+  .advantages-item {
+    max-width: 264px;
+  }
+
+  .advantages .item-title {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .advantages .item-text {
+    font-weight: 400;
+  }
+
+  .advantages-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: var(--accent-light-color);
+  }
+
+  .icon-strategy::before {
+    background-image: url("../images/antenna.svg");
+  }
+
+  .icon-punctuality::before {
+    background-image: url("../images/clock.svg");
+  }
+  .icon-diligence::before {
+    background-image: url("../images/diagram.svg");
+  }
+  .icon-technologies::before {
+    background-image: url("../images/astronaut.svg");
+  }
+
+  /* -------------------Works------------------- */
+  .works {
+    display: block;
+    padding-top: 0;
+  }
+
+  .works-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .works-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /* -------------------Team------------------- */
+
+  .team > .container {
+    width: 1158px;
+  }
+  .team.section {
+    padding-bottom: 120px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /* -------------------Customers------------------- */
+
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
+  .customers-item {
+    width: calc((100% -120px) / 6);
+  }
+}

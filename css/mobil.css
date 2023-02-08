@@ -1,0 +1,22 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+
+  .footer-form-input {
+    width: 396px;
+  }
+
+  .mob-menu-contacts-item-tel {
+    font-size: 36px;
+  }
+
+  .mob-menu-soc-list {
+    /* width: 328px; */
+    gap: 56px;
+  }
+
+  .mob-menu-soc-item {
+    width: calc((100% -168px) / 4);
+  }
+}
