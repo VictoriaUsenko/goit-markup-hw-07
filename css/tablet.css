@@ -87,6 +87,9 @@
   /* -----------------Footer-------------------- */
 
   .footer > .container {
+   
+   width: 582px;
+   
     gap: 24px;
     row-gap: 72px;
     justify-content: left;
@@ -180,6 +183,9 @@
 
   /* -------------------Customers------------------- */
 
+  .customers > .container {
+    width: 582px;
+  }
   .customers-list {
     gap: 24px;
   }
