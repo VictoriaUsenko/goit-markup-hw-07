@@ -44,6 +44,7 @@
     padding: 100px 0;
   }
   .footer > .container {
+    width: 1158px;
     gap: 0;
     row-gap: 0;
   }
@@ -158,6 +159,9 @@
 
   /* -------------------Customers------------------- */
 
+  .customers .container {
+    width: 1158px;
+  }
   .customers-list {
     flex-wrap: nowrap;
   }
